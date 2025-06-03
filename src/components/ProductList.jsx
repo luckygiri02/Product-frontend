@@ -15,9 +15,7 @@ function ProductList() {
     <div style={containerStyle}>
       <h2 style={titleStyle}>All Products</h2>
 
-      <Link to="/add">
-        <button style={addButtonStyle}>+ Add Product</button>
-      </Link>
+     
 
       {products.length === 0 && <p style={emptyText}>No products found.</p>}
 
